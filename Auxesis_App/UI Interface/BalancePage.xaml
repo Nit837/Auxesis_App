@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Auxesis_App.UI_Interface.BalancePage">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="Aquamarine">
+            <Label Text="Balance Info" FontSize="26" AbsoluteLayout.LayoutFlags="All" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutBounds="0.56,0.00,1,0.06" FontFamily="{StaticResource NormalFont}"/>
+            <ScrollView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0.34,0.5,1,0.85">
+                <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0.34,0.5,1,0.9" BackgroundColor="Aquamarine">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                        <RowDefinition Height="0.1*"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="ACCOUNT BALANCE" FontSize="20" FontFamily="{StaticResource NormalFont}" TextColor="Black" Grid.Row="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Start" VerticalOptions="FillAndExpand"/>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Title" FontSize="20" FontFamily="{StaticResource NormalFont}" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="Value" FontSize="20" FontFamily="{StaticResource NormalFont}" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="Type" FontSize="20" FontFamily="{StaticResource NormalFont}" Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Start"/>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                    <Label Text="Cash balance" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="€ 24,040.75" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="2" Grid.Column="1"/>
+                    <Label Text="C" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="2" Grid.Column="2"/>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                    <Label Text="Deposited" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="3" Grid.Column="0"/>
+                    <Label Text="€ 48,037.75" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="3" Grid.Column="1"/>
+                    <Label Text="C" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="3" Grid.Column="2"/>
+                    <Grid Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Withdrawn" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="4" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="4" Grid.Column="1"/>
+                    <Label Text="C" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="4" Grid.Column="2"/>
+                    <Grid Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Invested" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="5" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="5" Grid.Column="1"/>
+                    <Label Text="D" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="5" Grid.Column="2"/>
+                    <Grid Grid.Row="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Pending" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="6" Grid.Column="0"/>
+                    <Label Text="€ 1,000.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="6" Grid.Column="1"/>
+                    <Label Text="D" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="6" Grid.Column="2"/>
+                    <Grid Grid.Row="7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Fees incl VAT" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="7" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="7" Grid.Column="1"/>
+                    <Label Text="D" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="7" Grid.Column="2"/>
+                    <Grid Grid.Row="8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Repaid" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="8" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="8" Grid.Column="1"/>
+                    <Label Text="C" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="8" Grid.Column="2"/>
+                    <Grid Grid.Row="9">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Interest paid" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="9" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="9" Grid.Column="1"/>
+                    <Label Text="C" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="9" Grid.Column="2"/>
+                    <Grid Grid.Row="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Reserved" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="10" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="10" Grid.Column="1"/>
+                    <Label Text="D" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="10" Grid.Column="2"/>
+                    <Grid Grid.Row="11">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Written Off" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="11" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="11" Grid.Column="1"/>
+                    <Label Text="D" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="11" Grid.Column="2"/>
+                    <Grid Grid.Row="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="MPG purchased" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="12" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="12" Grid.Column="1"/>
+                    <Label Text="D" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="12" Grid.Column="2"/>
+                    <Grid Grid.Row="13">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="MPGS purchased" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="13" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="13" Grid.Column="1"/>
+                    <Label Text="D" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="13" Grid.Column="2"/>
+                    <Label Text="PORTFOLIO" FontSize="20" FontFamily="{StaticResource NormalFont}" TextColor="Black" Grid.Row="14" HorizontalTextAlignment="Start"/>
+                    <Grid Grid.Row="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Title" FontSize="20" FontFamily="{StaticResource NormalFont}" Grid.Row="15" Grid.Column="0"/>
+                    <Label Text="Value" FontSize="20" FontFamily="{StaticResource NormalFont}" Grid.Row="15" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="PORTFOLIO" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="16" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="16" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="17">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="No arrears" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="17" Grid.Column="0"/>
+                    <Label Text="+ € 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="17" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="18">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Arrears 45-89 days" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="18" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="18" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="19">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Arrears 90-179 days" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="19" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="19" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Arrears 180-365 days" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="20" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="20" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="21">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Arrears >= 365 days" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="21" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="21" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="22">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Total receivable" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="22" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="22" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="23">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Reserved" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="23" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="23" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Portfolio value" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="24" Grid.Column="0"/>
+                    <Label Text="€ 0.00" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="24" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Label Text="Net return" FontSize="20" FontFamily="{StaticResource NormalFont}" TextColor="Black" Grid.Row="25" HorizontalTextAlignment="Start"/>
+                    <Grid Grid.Row="26">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Title" FontSize="20" FontFamily="{StaticResource NormalFont}" Grid.Row="26" Grid.Column="0"/>
+                    <Label Text="Value" FontSize="20" FontFamily="{StaticResource NormalFont}" Grid.Row="26" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="27">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Net return" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="27" Grid.Column="0"/>
+                    <Label Text="0.00%" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="27" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="28">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Average return" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="28" Grid.Column="0"/>
+                    <Label Text="0.00%" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="28" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="29">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Incidental payment" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="29" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <Label Text="+ 0.00%" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="29" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="30">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Fees" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="30" Grid.Column="0"/>
+                    <Label Text="- 0.00%" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="30" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="31">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Reserved" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="31" Grid.Column="0"/>
+                    <Label Text="- 0.00%" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="31" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="32">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Written-off" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="32" Grid.Column="0"/>
+                    <Label Text="- 0.00%" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="32" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                    <Grid Grid.Row="33">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Label Text="Net return" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="33" Grid.Column="0"/>
+                    <Label Text=" 0.00%" FontSize="15" FontFamily="{StaticResource NormalFont}" Grid.Row="33" Grid.Column="1" HorizontalOptions="EndAndExpand"/>
+                </Grid>
+            </ScrollView>
+            <Button Text="LOGOUT" x:Name="btn_logout" Clicked="btn_logout_Clicked"  FontFamily="{StaticResource NormalFont}"
+                           AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.08"
+                         BackgroundColor="{StaticResource PrimaryColor}" TextColor="{StaticResource TextColor}" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

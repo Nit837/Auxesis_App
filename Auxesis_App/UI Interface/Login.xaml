@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" xmlns:controls="clr-namespace:Auxesis_App.Controls"
+             ios:Page.UseSafeArea="true"
+             mc:Ignorable="d"
+             x:Class="Auxesis_App.UI_Interface.Login">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15,15,15,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90" />
+                    <RowDefinition Height="90" />
+                    <RowDefinition Height="90" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Label Text="Login" FontSize="45" HorizontalOptions="CenterAndExpand" FontFamily="{StaticResource NormalFont}" Grid.Row="0" Grid.Column="0"/>
+                <StackLayout Orientation="Vertical" Grid.Row="1" Grid.Column="0">
+                    <controls:CustomFrame ShadowOpacity="0.11" Elevation="1" Margin="0,0,0,10" Padding="5,2,5,2"
+                                           BorderColor="{StaticResource BorderColor}">
+                        <controls:BetterEntry Placeholder="Email address" Keyboard="Email"
+                                               FontFamily="{StaticResource NormalFont}" x:Name="email" />
+                    </controls:CustomFrame>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Grid.Row="2" Grid.Column="0">
+                    <controls:CustomFrame ShadowOpacity="0.11" Elevation="1" Margin="0,0,0,10" Padding="5,2,5,2"
+                                           BorderColor="{StaticResource BorderColor}">
+                        <controls:BetterEntry Placeholder="Password" IsPassword="True"
+                                               FontFamily="{StaticResource NormalFont}" x:Name="password" />
+                    </controls:CustomFrame>
+                </StackLayout>
+                <Button Text="Login" x:Name="btn_login" Clicked="btn_login_Clicked" FontFamily="{StaticResource NormalFont}"
+                          HorizontalOptions="FillAndExpand" Grid.Row="3" Grid.Column="0"
+                         BackgroundColor="{StaticResource PrimaryColor}" TextColor="{StaticResource TextColor}" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
